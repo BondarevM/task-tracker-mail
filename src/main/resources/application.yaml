@@ -1,0 +1,6 @@
+server:
+  port: ${TASK_TRACKER_MAIL_PORT}
+
+spring:
+  kafka:
+    bootstrap-servers: ${KAFKA_PORT}
