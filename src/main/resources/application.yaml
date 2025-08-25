@@ -4,3 +4,8 @@ server:
 spring:
   kafka:
     bootstrap-servers: ${KAFKA_PORT}
+  mail:
+    host: ${SMTP_MAIL_HOST}
+    port: ${SMTP_MAIL_PORT}
+    username: ${SMTP_MAIL_USERNAME}
+    password: ${SMTP_MAIL_PASSWORD}
